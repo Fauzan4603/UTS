@@ -1,25 +1,49 @@
 body {
     margin: 0;
     padding: 0;
+    font-family:'Montserrat', sans-serif;
 }
 
 .navbar {
     background-color: #ffffff;
     overflow: hidden;
+    
 }
 
 .left {
     float: left;
-    padding: 10px 20px;
+    padding: 30px 20px;
     color: rgb(0, 0, 0);
+    justify-content: flex;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 
 .right {
     float: right;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-left: 5px;
+    margin-top: 28px;
+    font-weight: 200;
+    font-size: 15px;
+    margin-right: 8px;
+}
+
+.home {
+    background-image: url(fp.png);
+    height:50vw;
+    background-size: contain;
+    background-position-x: center;
+    color: #ffffff;
+    position: relative;
+}
+
+.home div {
+    position: absolute;
+    bottom: 0;
+    padding-left: 10px;
+
 }
 
 
@@ -119,5 +143,17 @@ body {
     background-color: #555;
 }
 
+#work h1 {
+    font-size: 40px
+}
+
+#work p {
+    max-width: 50%;
+}
+
+.right-section-fg{
+    position: relative;
+    align-items: center;
+}
 
 
